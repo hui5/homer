@@ -1,0 +1,42 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/search for icons options
+
+title: "Openda"
+subtitle: "Homer"
+logo: ""
+# icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+footer: false
+
+# Optional theme customization
+theme: default
+
+links:
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/hui5"
+    target: "_blank" # optional html tag target attribute
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Maps"
+    icon: "fas fa-map"
+    items:
+      - name: "上海历史建筑地图"
+        logo: "https://shanghai-heritage-map.openda.top/icons/highway-rest-area.svg"
+        subtitle: "Shanghai Heritage Map"
+        tag: "map"
+        url: "https://shanghai-heritage-map.openda.top"
+        target: "_blank"
+      - name: "River Runner"
+        logo: "https://river-runner.openda.top/favicon.png"
+        subtitle: "visualize the path of a rain droplet to its endpoint"
+        tag: "map"
+        url: "https://river-runner.openda.top"
+        target: "_blank"
+
+
